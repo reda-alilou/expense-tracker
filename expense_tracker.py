@@ -2,8 +2,8 @@
 def add_expense():
     # Collecting the expense details from the user
     date = input('Enter the date of the expenses (in the format YYYY-MM-DD): ')
-    category = input('Enter the description of the expense: ')
-    description = input('Enter the category of the expenses: ')
+    category = input('Enter the category of the expense: ')
+    description = input('Enter the description of the expenses: ')
     amount = input('Enter the amount spent: ')
     
     # Append the entered expense details to the 'expenses.csv' file
@@ -54,7 +54,7 @@ def edit_expense():
             new_date = input('New date: ')
             new_category = input('New category: ')
             new_description = input('New description: ')
-            new_amount = input('New amount')
+            new_amount = input('New amount: ')
             
             # Update the selected expense line with the new details
             lines[int(choice_to_modify)] = f'{new_date},{new_category},{new_description},{new_amount}\n'
