@@ -18,7 +18,7 @@ A simple expense tracker project built using Python. This project allows users t
 ## How to Run the Project
 
 1. **Clone the repository**:
-   `git clone https://github.com/Redaaaaaaaaaaa/expense-tracker.git`
+   `git clone https://github.com/reda-alilou/expense-tracker.git`
 
 2. **Navigate to the project directory**:
    `cd expense-tracker`
